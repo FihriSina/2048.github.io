@@ -1,0 +1,1 @@
+# AbdullahSinaKORKMAZ.github.io
