@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head> 
+    <title>2048 Oyunu</title>
+    <!-- CSS bağlama -->
+    <link rel="stylesheet" href="iki048.css">
+</head>
+<body>
+    <!-- Giriş ekranı -->
+    <div id="giris-ekrani" style="text-align: center; padding: 20px;">
+        <h1>Hoş Geldiniz!</h1>
+        <p>Benim adım Abdullah Sina, soyadım Korkmaz ve numaram 2021221044.</p>
+        <button id="baslaButonu" style="padding: 10px 20px; font-size: 16px;">Oyuna Başla</button>
+    </div>
+
+    <!-- Tema değiştirme butonları -->
+    <div class="tema-butonları" style="display: none;" id="temaButonlari">
+        <button class="tema-butonu" id="koyuTema">Koyu Tema</button>
+        <button class="tema-butonu" id="acikTema">Açık Tema</button>
+    </div>
+
+    <!-- Puanlama bölümü -->
+    <div class="puanlama" style="display: none;" id="puanlamaBolumu">
+        <div id="puan">Puan: 0</div>
+        <div id="enYuksekSkor">En Yüksek Skor: 0</div>
+    </div>
+
+    <!-- Oyun alanı ve skor tablosu -->
+    <div class="oyun-alani" style="display: none;" id="oyunAlani">
+        <!-- Oyun ızgr konteyneri -->
+        <div class="oyun-konteyneri" id="oyun-konteyneri"></div>
+
+        <!-- En yüksek skorlar tablosu -->
+        <div class="skor-tabloları">
+            <h2>En Yüksek Skorlar</h2>
+            <ol id="enYuksekSkorlar"></ol>
+        </div>
+    </div>
+
+    <!-- Yeni oyun ve skor sıfırlama butonları -->
+    <button id="yeniOyun" style="display: none;">Yeni Oyun</button>
+    <button id="skorSıfırla" style="display: none;">En Yüksek Skoru Sıfırla</button>
+
+    <!-- js bağlama -->
+    <script>
+        // Oyuna başlama butonuna tıklandığında giriş ekranını gizleyip oyunu başlatma
+        document.getElementById('baslaButonu').addEventListener('click', function() {
+            document.getElementById('giris-ekrani').style.display = 'none';
+            document.getElementById('temaButonlari').style.display = 'flex';
+            document.getElementById('puanlamaBolumu').style.display = 'block';
+            document.getElementById('oyunAlani').style.display = 'flex';
+            document.getElementById('yeniOyun').style.display = 'inline-block';
+            document.getElementById('skorSıfırla').style.display = 'inline-block';
+        });
+    </script>
+    <script src="iki048.js"></script>
+</body>
+</html>
