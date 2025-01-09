@@ -1,4 +1,4 @@
-English
+
 # 2048 Game
 
 This project is a recreation of the popular 2048 game using HTML, CSS, and JavaScript. The game includes light and dark theme options, score tracking, and high score recording features.
@@ -119,7 +119,7 @@ This project is a version of the classic 2048 game designed with HTML, CSS, and 
 
 This project is licensed under the MIT License. For more details, see the `LICENSE` file.
 
-Türkçe
+
 # 2048 Oyunu 
 
 Bu proje, popüler 2048 oyununu HTML, CSS ve JavaScript kullanarak geliştirilmiştir. Oyunda hem açık hem de koyu tema seçeneği, skor takibi ve en yüksek skor kaydı gibi özellikler bulunmaktadır.
