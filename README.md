@@ -1,4 +1,126 @@
-# 2048 Oyunu
+English
+# 2048 Game
+
+This project is a recreation of the popular 2048 game using HTML, CSS, and JavaScript. The game includes light and dark theme options, score tracking, and high score recording features.
+
+## Project Description
+
+This project is a version of the classic 2048 game designed with HTML, CSS, and JavaScript. Players aim to achieve the highest score by merging tiles with the same values.
+
+## Features
+
+### General Features
+
+1. **Game Area**:
+
+   - Played on a 4x4 grid.
+   - Tiles move based on user inputs (up, down, left, right) and merge when values are the same.
+
+2. **Scoring**:
+
+   - Each merge increases the player's score.
+   - High scores are stored in the browser using localStorage.
+
+3. **Theme Options**:
+
+   - **Dark Theme**: Provides a dark interface.
+   - **Light Theme**: Offers a default light-colored interface.
+
+4. **High Scores**:
+
+   - Scores achieved at the end of the game are stored in a list.
+   - The top 10 scores are displayed in order.
+
+5. **Start and Reset Buttons**:
+
+   - Options to start a new game and reset high scores are included, making the project more testable.
+
+## Code Design
+
+### 1. HTML
+
+- A basic HTML structure is used to build the game layout.
+- Elements:
+  - "Game Area"
+  - "Scoring Section"
+  - "Theme Buttons"
+  - "High Scores" list
+
+### 2. CSS
+
+- Detailed styles were defined for themes and the interface.
+- Custom styles were applied for Light and Dark themes.
+- Dynamic background and text colors for tiles were implemented based on their values.
+
+### 3. JavaScript
+
+- **Game Mechanics**:
+
+  - Tile movement, merging, and generation of new tiles are managed using JavaScript.
+  - Keyboard events are monitored to enable tile movements on the grid.
+
+- **Theme Management**:
+
+  - "Dark Theme" and "Light Theme" buttons allow users to switch between themes.
+  - Thematic visuals are optimized according to user preferences.
+
+- **Score Management**:
+
+  - High scores and the score list are stored using localStorage.
+  - The score table updates dynamically.
+
+## User Experience Features
+
+1. **Theme Switching**
+
+   - Users can toggle between light and dark themes with a single click.
+   - Each theme is optimized for visual contrast and readability.
+
+2. **High Scores**
+
+   - Scores achieved at the end of the game are automatically added to the list.
+   - The top 10 scores are displayed in a sorted manner.
+
+3. **Game Restart**
+
+   - The "New Game" button resets the game.
+   - The "Reset High Scores" button clears all stored scores.
+
+## Files
+
+- `iki048.html`: Contains the main HTML structure of the project.
+- `iki048.css`: Includes the design styles for the game.
+- `iki048.js`: Provides the JavaScript functionality for the game.
+
+## Installation
+
+1. Clone this project to your local machine:
+
+   ```bash
+   git clone https://github.com/FihriSina/AbdullahSinaKORKMAZ.github.io.git
+   ```
+
+2. Open the project files in a browser to run:
+
+   - Open `iki048.html` in any browser.
+
+## Usage
+
+1. Click the "Start Game" button to begin the game.
+2. Merge tiles to increase your score.
+3. Use the buttons to switch between light and dark themes.
+4. Use the "Reset High Scores" button to clear stored scores.
+
+## About the Project
+
+- **Author**: Abdullah Sina Korkmaz
+
+## License
+
+This project is licensed under the MIT License. For more details, see the `LICENSE` file.
+
+Türkçe
+# 2048 Oyunu 
 
 Bu proje, popüler 2048 oyununu HTML, CSS ve JavaScript kullanarak geliştirilmiştir. Oyunda hem açık hem de koyu tema seçeneği, skor takibi ve en yüksek skor kaydı gibi özellikler bulunmaktadır.
 
