@@ -102,7 +102,7 @@ Bu proje, klasik 2048 oyununun HTML, CSS ve JavaScript kullanılarak tasarlanmı
 ## Proje Hakkında
 
 - **Yazar**: Abdullah Sina Korkmaz
-- **Öğrenci No**: 2021221044
+
 
 ## Lisans
 
