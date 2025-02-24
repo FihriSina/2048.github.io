@@ -97,7 +97,7 @@ This project is a version of the classic 2048 game designed with HTML, CSS, and 
 1. Clone this project to your local machine:
 
    ```bash
-   git clone https://github.com/FihriSina/AbdullahSinaKORKMAZ.github.io.git
+   git clone https://github.com/FihriSina/2048.github.io.git
    ```
 
 2. Open the project files in a browser to run:
@@ -207,7 +207,7 @@ Bu proje, klasik 2048 oyununun HTML, CSS ve JavaScript kullanılarak tasarlanmı
 1. Bu projeyi bilgisayarınıza kopyalayın:
 
    ```bash
-   git clone https://github.com/FihriSina/AbdullahSinaKORKMAZ.github.io.git
+   git clone https://github.com/FihriSina/2048.github.io.git
    ```
 
 2. Proje dosyalarını bir tarayıcıda açarak çalıştırabilirsiniz:
