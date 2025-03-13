@@ -1,6 +1,8 @@
 
 # 2048 Game
 
+https://fihrisina.github.io/2048.github.io/iki048.html
+
 This project is a recreation of the popular 2048 game using HTML, CSS, and JavaScript. The game includes light and dark theme options, score tracking, and high score recording features.
 
 ## Project Description
@@ -121,6 +123,8 @@ This project is licensed under the MIT License. For more details, see the `LICEN
 
 
 # 2048 Oyunu 
+
+https://fihrisina.github.io/2048.github.io/iki048.html
 
 Bu proje, popüler 2048 oyununu HTML, CSS ve JavaScript kullanarak geliştirilmiştir. Oyunda hem açık hem de koyu tema seçeneği, skor takibi ve en yüksek skor kaydı gibi özellikler bulunmaktadır.
 
